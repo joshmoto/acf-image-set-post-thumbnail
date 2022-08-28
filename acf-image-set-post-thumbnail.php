@@ -1,13 +1,12 @@
 <?php
 /*
 Plugin Name: ACF Image Set Post Thumbnail
-Plugin URI: https://jostmoto.wtf/
-Description: Plugin to set ACF image as post thumbnail featured image.
-Version: 1.0
+Plugin URI: https://github.com/joshmoto/acf-image-set-post-thumbnail
+Description: Plugin tool function to set ACF image as post thumbnail featured image.
+Version: 1.1
 Author: J O S H M O T O
-Author URI: https://jostmoto.wtf/
+Author URI: https://github.com/joshmoto
 License: GPLv2 or later
-Text Domain: joshmoto
 */
 
 class ACF_img_set_post_thumb {
