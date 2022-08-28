@@ -1,0 +1,92 @@
+// ACF Image Set Post Thumbnail form css
+#acf-img-set-post-thumb-form {
+
+  .form-table {
+    TR {
+      &:first-child {
+        TH {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  .row-hide {
+    display: none;
+  }
+
+  .progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    line-height: 0;
+    font-size: .75rem;
+    background-color: #f6f7f7;
+    border-radius: 3px;
+    border-color: #2271b1;
+    border-width: 1px;
+    border-style: solid;
+    transition: all .6s ease;
+
+    &.progress-done {
+      border-color: #00a32a;
+
+      .progress-bar {
+        background-color: #00a32a;
+      }
+    }
+
+    &.progress-error {
+      border-color: #d63638;
+
+      .progress-bar {
+        background-color: #d63638;
+      }
+    }
+
+    .progress-bar {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      background-color: #2271b1;
+      transition: all .6s ease;
+    }
+  }
+
+  .logger {
+    margin: 0;
+    overflow: scroll;
+    height: 130px;
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid #8c8f94;
+    background-color: #fff;
+    color: #2c3338;
+    padding: 4px 6px 1px;
+    line-height: 1.42857143;
+    resize: vertical;
+    direction: ltr;
+    unicode-bidi: embed;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-weight: inherit;
+
+    A, STRONG {
+      &.log-text-success {
+        color: #2271b1;
+      }
+      &.log-text-error {
+        color: #d63638;
+      }
+      &.log-text-done {
+        color: #00a32a;
+      }
+    }
+  }
+}
+
+

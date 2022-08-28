@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "development": "mix",
+    "watch": "mix watch",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^6.0.24",
+    "postcss": "^8.2.4",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "~1.32.13",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+
+  }
+}
